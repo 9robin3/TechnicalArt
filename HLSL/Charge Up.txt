@@ -1,0 +1,67 @@
+ChargeypPixelShader
+
+#include "../ParticleShaderStruct.hlsli"
+
+PixelOutput main(GeometryToPixel input)
+{
+	PixelOutput output;
+	float2 uv = input.myUV.xy;
+	float2 centerUv = uv - 0.5;
+
+	float4 myTexture = ParticleTexture.Sample(DefaultSampler, uv);
+	//float3 color = myTexture.rgb;
+	float3 color = float3(1.0f, 1.0f, 1.0f);
+
+	//float loopingTime = 100;
+	float loopingTime = pow(frac(myTimings.z * 0.2), 1);
+
+	float radialGradient = length(centerUv);
+
+	float myCircleOuter = smoothstep(0.5 - loopingTime, 0.45 - loopingTime, radialGradient);
+	float myCircleInner = smoothstep(0.49 - loopingTime, 0.44 - loopingTime, radialGradient);
+	float myCircleResult = myCircleOuter - myCircleInner;
+
+	//output.myColor = float4(color, myCircleOuter);
+	output.myColor = float4(color, myCircleResult);
+	//output.myColor = textureColor.rgba * myCircleResult;
+	return output;
+}
+
+-------------------------------
+ChargeUpOnePixelShader
+
+
+#include "../ParticleShaderStruct.hlsli"
+float2 rotateUV(float2 uv, float rotation)
+{
+	float mid = 0.5;
+	return float2(
+		cos(rotation) * (uv.x - mid) + sin(rotation) * (uv.y - mid) + mid,
+		cos(rotation) * (uv.y - mid) - sin(rotation) * (uv.x - mid) + mid
+		);
+}
+
+
+PixelOutput main(GeometryToPixel input)
+{
+	float2 uv = input.myUV.xy;
+	float time = myTimings.z;
+	float2 centerUv = uv - 0.5;
+	float radialGradient = length(centerUv);
+
+	float loopingTime = pow(frac(time * 0.7), 3);
+
+	float myCircle = smoothstep(0.2, 0.5 - loopingTime, radialGradient);
+	
+	PixelOutput output;
+	float4 textureColor = ParticleTexture.Sample(DefaultSampler, rotateUV(uv, time * 2));
+	float3 color = (1.0,1.0,1.0);
+	float alpha = textureColor.a;
+	float alphaResult = alpha * myCircle;
+
+	
+	output.myColor = float4(color, alphaResult);
+	//output.myColor = textureColor.rgba * input.myColor.rgba;
+	return output;
+}
+//SetChargeUpOneParticleShaders

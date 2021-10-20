@@ -1,0 +1,27 @@
+#include "../SpriteShaderStructs.hlsli"
+
+PixelOutput main(VertexToPixel input)
+{
+	if (input.myUV.x < myUVRect.x ||
+		input.myUV.x > myUVRect.z ||
+		input.myUV.y < myUVRect.y ||
+		input.myUV.y > myUVRect.w)
+	{
+		discard;
+	}
+
+	PixelOutput returnValue;
+	float textureColorR = albedoTexture.Sample(defaultSampler, input.myUV.xy + myTimings.x * 0.05).r;
+	float textureColorG = albedoTexture.Sample(defaultSampler, input.myUV.xy - myTimings.x * 0.3).g;
+	float textureColorB = albedoTexture.Sample(defaultSampler, input.myUV.xy - myTimings.x * 0.05).b;
+	float textureColorA = albedoTexture.Sample(defaultSampler, input.myUV.xy).a;
+
+	float3 ColorRed = float3(1,0,0.1);
+	float mulTextures = textureColorR * textureColorG  * textureColorB * textureColorA + 0.1;
+
+	float3 finalResult = ColorRed * mulTextures;
+	//float4 textureColor1 = albedoTexture.Sample(defaultSampler, input.myUV.xy + myTime).rgba;
+	returnValue.myColor = float4(finalResult, textureColorA);
+	return returnValue;
+
+}

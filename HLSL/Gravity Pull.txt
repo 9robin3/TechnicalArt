@@ -1,0 +1,24 @@
+#include "../ParticleShaderStruct.hlsli"
+
+PixelOutput main(GeometryToPixel input)
+{
+	PixelOutput output;
+	float2 UVset = input.myUV.xy;
+
+	//Set all texture channels
+	float4 packedTexture = ParticleTexture.Sample(DefaultSampler, UVset);
+	float textureBase = packedTexture.r;
+	float textureMask = packedTexture.g;
+	float textureSmall = packedTexture.b;
+	float textureAlpha = packedTexture.a;
+
+	//Calulate mix over time and lerp
+	float mix = saturate((textureMask - myTimings.z * 0.7) * 10);
+	float3 lerpTex = lerp(textureBase, textureSmall, mix);
+
+	//Set color and final render output
+	float3 Color = float3(0.7, 0.2, 0.1);
+	float3 colorLerp = Color * lerpTex;
+	output.myColor = float4(colorLerp, textureAlpha * 0.5);
+	return output;
+}

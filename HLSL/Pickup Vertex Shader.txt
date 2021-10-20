@@ -1,0 +1,32 @@
+#include "../ModelShaders/ModelShaderStructs.hlsli"
+
+VertexToPixel main(VertexInput input)
+{
+	VertexToPixel returnValue;
+
+	float4 vertexObjectPos = input.myPosition.xyzw;
+
+	float totalTime = myTimings.x;
+
+	float speed = 10.0f;
+
+	float timeSpeed = totalTime * speed;
+	vertexObjectPos += sin(timeSpeed) * 0.2f / 1.1f;
+	
+	float4 vertexWorldPos = (mul(toWorld, vertexObjectPos));
+	float4 vertexViewPos		= mul(toCamera, vertexWorldPos);
+	float4 vertexProjectionPos	= mul(toProjection, vertexViewPos);
+
+	float3x3 toWorldRotation	= (float3x3)toWorld;
+	float3 vertexWorldNormal	= mul(toWorldRotation, input.myNormal.xyz);
+	float3 vertexWorldTangent	= mul(toWorldRotation, input.myTangent.xyz);
+	float3 vertexWorldBiNormal	= mul(toWorldRotation, input.myBiNormal.xyz);
+
+	returnValue.myPosition		= vertexProjectionPos;
+	returnValue.myWorldPosition = vertexWorldPos;
+	returnValue.myNormal		= float4(vertexWorldNormal, 0);
+	returnValue.myTangent		= float4(vertexWorldTangent, 0);
+	returnValue.myBiNormal		= float4(vertexWorldBiNormal, 0);
+	returnValue.myUV			= input.myUV;
+	return returnValue;
+}

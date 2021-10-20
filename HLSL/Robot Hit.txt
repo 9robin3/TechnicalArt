@@ -1,0 +1,70 @@
+Screw rotating effect:
+
+---------------------------
+
+#include "../ParticleShaderStruct.hlsli"
+
+PixelOutput main(GeometryToPixel input)
+{
+	float time = myTimings.x;
+	float deltaTime = myTimings.y;
+	float2 tex = input.myUV.xy;
+
+	int numHor = 6;
+	int numVert = 1;
+
+	float horIncr = 1.0 / numHor;
+	float vertIncr = 1.0 / numVert;
+	float texFPS = 30.0;
+	//float speed = (texFPS*(1.0/deltaTime)) * texFPS;
+	float speed = 5.0; //delta time needs to come in here and result in 30 fps
+	
+	
+	float uOffset = horIncr * int(time * speed);
+	float vOffset = vertIncr * int(time * speed * horIncr);
+	float2 scaledTex = tex * float2(horIncr, vertIncr);
+	float4 textureColor = ParticleTexture.Sample(DefaultSampler, scaledTex + float2(uOffset, vOffset)).rgba;
+
+	PixelOutput output;
+	//float4 textureColor = ParticleTexture.Sample(DefaultSampler, input.myUV.xy).rgba; 
+	
+	output.myColor = textureColor.rgba * input.myColor.rgba;
+	return output; 
+
+	/*
+
+	PixelOutput output;
+	output.myColor = float4(randUv, randUv, randUv, 1.0);
+	*/
+}
+
+------------------------------------
+
+Shrinking flash/circle:
+
+#include "../ParticleShaderStruct.hlsli"
+
+float2 rotateUV(float2 uv, float rotation)
+{
+	float mid = 0.5;
+	return float2(
+		cos(rotation) * (uv.x - mid) + sin(rotation) * (uv.y - mid) + mid,
+		cos(rotation) * (uv.y - mid) - sin(rotation) * (uv.x - mid) + mid
+		);
+}
+
+PixelOutput main(GeometryToPixel input)
+{
+
+	float2 uv = input.myUV.xy;
+	float2 uvOffset = uv - 0.5;
+	float time = myTimings.z;
+	float timeLoop = sin(time * -2);
+	float timeLimit = timeLoop * 0.4 + 1;
+	float2 timeOffset = timeLimit * uvOffset + 0.5;
+	
+	PixelOutput output;
+	float4 textureColor = ParticleTexture.Sample(DefaultSampler, rotateUV(timeOffset, time*2.0)).rgba;
+	output.myColor = textureColor.rgba * input.myColor.rgba;
+	return output;
+}
