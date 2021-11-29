@@ -1,2 +1,2 @@
 # TechnicalArt
-Technical art automation and tools scripts (Maya Python, Unity, HLSL)
+Technical art automation, tools and shader scripts (Maya Python, Unity, HLSL)
