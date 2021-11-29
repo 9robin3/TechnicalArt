@@ -1,0 +1,8 @@
+﻿Build started 2016-03-24 09:41:43.
+     1>Project "F:\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\eduRend_handout\source\Template.vcxproj" on node 2 (build target(s)).
+     1>C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\Platforms\Win32\Microsoft.Cpp.Win32.Targets(518,5): error MSB8008: Specified platform toolset (v120) is not installed or invalid. Please make sure that a supported PlatformToolset value is selected.
+     1>Done Building Project "F:\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\eduRend_handout\source\Template.vcxproj" (build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:00

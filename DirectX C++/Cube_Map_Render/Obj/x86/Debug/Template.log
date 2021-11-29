@@ -1,0 +1,183 @@
+﻿Build started 2016-08-05 14:34:23.
+     1>Project "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\Template.vcxproj" on node 2 (Rebuild target(s)).
+     1>FxCompile:
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_5_0 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/PixelShaderDrawTri.cso" /Zi ..\Bin\Shaders\PixelShaderDrawTri.hlsl 
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\PixelShaderDrawTri.hlsl(38,9-77): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\PixelShaderDrawTri.hlsl(46,23-48): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\PixelShaderDrawTri.hlsl(47,23-49): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\PixelShaderDrawTri.hlsl(52,28-43): warning X3571: pow(f, e) will not work for negative f, use abs(f) or conditionally handle negative values if you expect them
+         
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\PixelShaderDrawTri.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/VertexShaderDrawTri.cso" /Zi ..\Bin\Shaders\VertexShaderDrawTri.hlsl 
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(41,18-54): warning X3206: 'mul': implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(41,2-54): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(42,20-58): warning X3206: 'mul': implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(42,2-58): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(43,19-56): warning X3206: 'mul': implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(43,2-56): warning X3206: implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\Bin\Shaders\VertexShaderDrawTri.hlsl(45,2-64): warning X3206: implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\VertexShaderDrawTri.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/PixelShaderReflection.cso" PixelShaderReflection.hlsl 
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\PixelShaderReflection.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T ps_4_0_level_9_1 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/PixelShaderSkydome.cso" PixelShaderSkydome.hlsl 
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\PixelShaderSkydome.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_4_0_level_9_1 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/VertexShaderReflection.cso" VertexShaderReflection.hlsl 
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\source\VertexShaderReflection.hlsl(34,19-55): warning X3206: 'mul': implicit truncation of vector type
+     1>C:\Users\Robin\Desktop\H�GSKOLAN\L�S�R 2\Datorgrafik & Modellering\Rendering\Inl�mningsuppgifter\Assignment5\source\VertexShaderReflection.hlsl(34,5-55): warning X3206: implicit truncation of vector type
+         
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\VertexShaderReflection.cso
+         C:\Program Files (x86)\Windows Kits\8.1\bin\x86\fxc.exe /nologo /E"main" /T vs_5_0 /Fo "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/VertexShaderSkydome.cso" /Zi VertexShaderSkydome.hlsl 
+         compilation object save succeeded; see C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\VertexShaderSkydome.cso
+       ClCompile:
+         D:\Program\Visual Studio\VC\bin\CL.exe /c /I..\DirectXTK\include /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _DEBUG /D _WINDOWS /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/" /Fd"C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/vc120.pdb" /Gd /TP /analyze- /errorReport:prompt Geometry.cpp InputHandler.cpp mesh.cpp Main.cpp vec\mat.cpp vec\vec.cpp
+         vec.cpp
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+         mat.cpp
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(253): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(246) : while compiling class template member function 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)'
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.cpp(24) : see reference to function template instantiation 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)' being compiled
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(531) : see reference to class template instantiation 'linalg::vec3<float>' being compiled
+         Main.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(159): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(162): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(240): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(241): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(242): warning C4996: 'freopen': This function or variable may be unsafe. Consider using freopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(226) : see declaration of 'freopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(526): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(523) : while compiling class template member function 'linalg::mat4<float> linalg::mat4<float>::rotation(const T &,const T &,const T &,const T &)'
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\main.cpp(113) : see reference to function template instantiation 'linalg::mat4<float> linalg::mat4<float>::rotation(const T &,const T &,const T &,const T &)' being compiled
+                 with
+                 [
+                     T=float
+                 ]
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(660) : see reference to class template instantiation 'linalg::mat4<float>' being compiled
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         mesh.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(32): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(46): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(55): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(64): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(73): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(77): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(81): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(29): warning C4101: 'str1' : unreferenced local variable
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(119): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(125): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(134): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(140): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(152): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(158): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(164): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(170): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(176): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(186): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(192): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(202): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(208): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(218): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(224): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(234): warning C4996: 'sscanf': This function or variable may be unsafe. Consider using sscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(304) : see declaration of 'sscanf'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(251): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.cpp(252): warning C4800: 'unsigned int' : forcing value to bool 'true' or 'false' (performance warning)
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         InputHandler.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\inputhandler.cpp(181): warning C4244: 'return' : conversion from 'LONG' to 'float', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\inputhandler.cpp(185): warning C4244: 'return' : conversion from 'LONG' to 'float', possible loss of data
+         Geometry.cpp
+         c:\program files (x86)\windows kits\8.1\include\um\dinput.h: DIRECTINPUT_VERSION undefined. Defaulting to version 0x0800
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\math.h(48): warning C4244: 'return' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(23): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\file_rw.h(58): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\program\visual studio\vc\include\stdio.h(211) : see declaration of 'fopen'
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(68): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(71): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(69): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(82): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(310): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(323): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(552): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(565): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(718): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(731): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(795): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(801): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(814): warning C4244: 'initializing' : conversion from 'float' to 'UINT', possible loss of data
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(253): warning C4244: 'initializing' : conversion from 'double' to 'float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(246) : while compiling class template member function 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)'
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(887) : see reference to function template instantiation 'linalg::vec3<float> &linalg::vec3<float>::normalize(void)' being compiled
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(531) : see reference to class template instantiation 'linalg::vec3<float>' being compiled
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(75): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(72) : while compiling class template member function 'linalg::mat2<float> linalg::mat2<float>::invert(void) const'
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\geometry.cpp(877) : see reference to function template instantiation 'linalg::mat2<float> linalg::mat2<float>::invert(void) const' being compiled
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\mat.h(658) : see reference to class template instantiation 'linalg::mat2<float>' being compiled
+     1>c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\vec\vec.h(479): warning C4244: 'argument' : conversion from 'double' to 'const float', possible loss of data
+                 c:\users\robin\desktop\högskolan\läsår 2\datorgrafik & modellering\rendering\inlämningsuppgifter\assignment5\source\mesh.h(58) : see reference to function template instantiation 'linalg::vec3<float> linalg::normalize<float>(const linalg::vec3<float> &)' being compiled
+         Generating Code...
+       Link:
+         D:\Program\Visual Studio\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/eduRendD.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\DirectXTK\lib\debug DirectXTK.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/eduRendD.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE:NO /IMPLIB:"C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/eduRendD.lib" /MACHINE:X86 /SAFESEH "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/Geometry.obj"
+         "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/InputHandler.obj"
+         "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/mesh.obj"
+         "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/Main.obj"
+         "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/mat.obj"
+         "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Obj/x86/Debug/vec.obj"
+     1>Geometry.obj : warning LNK4075: ignoring '/EDITANDCONTINUE' due to '/SAFESEH' specification
+     1>DirectXTK.lib(DDSTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(DDSTextureLoader.obj)' or at 'C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(pch.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(pch.obj)' or at 'C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\directxtk.pdb'; linking object as if no debug info
+     1>DirectXTK.lib(WICTextureLoader.obj) : warning LNK4099: PDB 'directxtk.pdb' was not found with 'DirectXTK.lib(WICTextureLoader.obj)' or at 'C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\Bin\x86\directxtk.pdb'; linking object as if no debug info
+         Template.vcxproj -> C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\../Bin/x86/eduRendD.exe
+     1>Done Building Project "C:\Users\Robin\Desktop\HÖGSKOLAN\LÄSÅR 2\Datorgrafik & Modellering\Rendering\Inlämningsuppgifter\Assignment5\source\Template.vcxproj" (Rebuild target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.53
